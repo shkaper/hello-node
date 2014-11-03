@@ -16,7 +16,7 @@ $ node index.js
 
 $ npm test 
 
--- to run tests
+-- to run tests (you should have a webdriver instance running in background)
 
 ### Tools
 
