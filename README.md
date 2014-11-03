@@ -6,9 +6,11 @@ This is a simple wannabe-CRM web application written in node.js. The project uti
 
 ## Usage
 
-mongod to run mongo service
-node index.js to run web server
-npm test to run tests
+mongod -- to run mongo service
+
+node index.js -- to run web server\n
+
+npm test -- to run tests
 
 ### Tools
 
