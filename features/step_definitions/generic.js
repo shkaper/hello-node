@@ -1,8 +1,12 @@
 /**
- * New node file
+ * Generic steps for feature tests
  */
+
+var PROPERTIES = require('../../properties.json');
+
 module.exports = function () {
-	var baseUrl = 'http://127.0.0.1:1337';
+//	var baseUrl = 'http://127.0.0.1:1337';
+	var baseUrl = 'http://' + PROPERTIES.host + ':' + PROPERTIES.port;
     console.log('Generic Steps Loaded');
     this.World = require('../support/world.js');
 

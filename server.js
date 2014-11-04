@@ -2,11 +2,15 @@
  * HTTP server module
  */
 
+var PROPERTIES = require('./properties.json');
 var http = require('http');
 var url = require('url');
-var ip = '127.0.0.1';
+
+//var ip = '127.0.0.1';
 //var ip = '192.168.2.102';
-var port = '1337';
+//var port = '1337';
+var ip = PROPERTIES.host;
+var port = PROPERTIES.port;
 
 function start(route, handle) {
 	function onRequest(request, response) {
