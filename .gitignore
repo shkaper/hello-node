@@ -1,0 +1,5 @@
+.project
+build.gradle
+.tern-project
+.jshintrc
+.settings/
